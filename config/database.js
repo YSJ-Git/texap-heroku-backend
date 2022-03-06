@@ -1,4 +1,4 @@
-const parse = require('pg-connection-string').parse;
+/*const parse = require('pg-connection-string').parse;
 const config = parse(process.env.DATABASE_URL);
 module.exports = ({ env }) => ({
   connection: {
@@ -15,9 +15,9 @@ module.exports = ({ env }) => ({
     },
     debug: false,
   },
-});
+});*/
 
-/*const path = require('path');
+const path = require('path');
 
 module.exports = ({ env }) => ({
   connection: {
@@ -27,4 +27,4 @@ module.exports = ({ env }) => ({
     },
     useNullAsDefault: true,
   },
-});*/
+});
